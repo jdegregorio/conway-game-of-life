@@ -23,6 +23,8 @@ From Wikipedia [LINK](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 ## Project Description
 
 ### Overview
+
+```
 Conway's Game of Life Demonstration
 ├── LICENSE
 ├── Pipfile
@@ -35,6 +37,7 @@ Conway's Game of Life Demonstration
     ├── conway.py
     ├── dev.py
     └── main.py
+```
 
 ### conway.py
 
