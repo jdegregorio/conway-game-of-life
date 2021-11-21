@@ -1,7 +1,7 @@
 # Conway's Game of Life Simulation
 A simulation of Conway's Game of Life
 
-# Rules
+## Rules
 
 From Wikipedia [LINK](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 
@@ -19,3 +19,38 @@ From Wikipedia [LINK](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
 >  * All other live cells die in the next generation. Similarly, all other dead cells stay dead.
 > 
 > The initial pattern constitutes the seed of the system. The first generation is created by applying the above rules simultaneously to every cell in the seed, live or dead; births and deaths occur simultaneously, and the discrete moment at which this happens is sometimes called a tick. Each generation is a pure function of the preceding one. The rules continue to be applied repeatedly to create further generations.
+
+## Project Description
+
+### Overview
+
+```
+Conway's Game of Life Demonstration
+├── LICENSE
+├── Pipfile
+├── Pipfile.lock
+├── README.md
+├── animation.gif
+└── src
+    ├── __pycache__
+    │   └── conway.cpython-38.pyc
+    ├── conway.py
+    ├── dev.py
+    └── main.py
+```
+
+### conway.py
+
+A high level class definition of the Conway Game of Life. The class includes methods for the following:
+ * Initiate an object with specified grid size
+ * Advanced the game one time step (implementation of game of life rules)
+ * Simulate the game of life through multiple time steps
+
+
+### main.py
+
+An example demonstration of the game:
+ * Create an instance
+ * Simulate the game for n steps
+ * Animate using matplotlib
+
